@@ -7,7 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class ResourceReloadEventHandler {
 
-	public static boolean canAddResourceListener = false;
+	public static boolean canAddResourceListener = true;
 
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
 	public static void addReloadListenersStart(AddReloadListenerEvent event) {

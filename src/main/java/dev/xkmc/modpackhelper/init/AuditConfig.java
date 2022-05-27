@@ -9,15 +9,13 @@ public class AuditConfig {
 
 	public static class Common {
 
-		public final ForgeConfigSpec.BooleanValue suppressNamespaceError;
-		public final ForgeConfigSpec.BooleanValue suppressUnobtainableEnchantmentError;
+		//public final ForgeConfigSpec.BooleanValue suppressNamespaceError;
+		//public final ForgeConfigSpec.BooleanValue suppressUnobtainableEnchantmentError;
 
 		Common(ForgeConfigSpec.Builder builder) {
 			builder.push("suppression");
-			suppressNamespaceError = builder.comment("Suppress Dangerous Prefix (Ex: Forge Milk, Apotheosis)")
-					.define("suppressNamespaceError", true);
-			suppressUnobtainableEnchantmentError = builder.comment("Suppress Enchantment Level Requirement Too High Error (Apotheosis)")
-					.define("suppressUnobtainableEnchantmentError", true);
+			//suppressNamespaceError = builder.comment("Suppress Dangerous Prefix (Ex: Forge Milk, Apotheosis)").define("suppressNamespaceError", true);
+			//suppressUnobtainableEnchantmentError = builder.comment("Suppress Enchantment Level Requirement Too High Error (Apotheosis)").define("suppressUnobtainableEnchantmentError", true);
 			builder.pop();
 		}
 

@@ -2,21 +2,21 @@ modLoader="javafml"
 loaderVersion="[40,)"
 license="All rights reserved"
 [[mods]]
-modId="playerdifficulty"
+modId="modpackhelper"
 version="${file.jarVersion}" #mandatory
-displayName="Player Difficulty" #mandatory
-logoFile="playerdifficulty.png" #optional
+displayName="Modpack Helper" #mandatory
+logoFile="modpackhelper.png" #optional
 credits="Thanks for this example mod goes to Java" #optional
 authors="Love, Cheese and small house plants" #optional
 description='''
 '''
-[[dependencies.playerdifficulty]]
+[[dependencies.modpackhelper]]
     modId="forge"
     mandatory=true
     versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.playerdifficulty]]
+[[dependencies.modpackhelper]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,1.19)"
