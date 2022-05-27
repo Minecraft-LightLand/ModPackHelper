@@ -31,7 +31,8 @@ public class ReloadableResourceManagerMixin {
 
 	@Inject(at = @At("HEAD"), method = "createReload")
 	public void createReload(Executor p_143930_, Executor p_143931_, CompletableFuture<Unit> p_143932_, List<PackResources> p_143933_, CallbackInfoReturnable<ReloadInstance> cir) {
-
+		ResourceReloadEventHandler.canAddResourceListener = false;
+		ModpackHelper.LOGGER.info("Starting Reload. Adding reload listener after this point is illegal");
 	}
 
 }
