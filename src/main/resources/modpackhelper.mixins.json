@@ -5,7 +5,6 @@
   "compatibilityLevel": "JAVA_16",
   "refmap": "modpackhelper.refmap.json",
   "mixins": [
-    "ReloadableResourceManagerMixin"
   ],
   "client": [
   ],

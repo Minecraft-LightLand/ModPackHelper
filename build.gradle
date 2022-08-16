@@ -125,14 +125,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 
-    runtimeOnly fg.deobf('dev.xkmc.l2library:l2library:0.0.7')
-    runtimeOnly fg.deobf('dev.xkmc.l2backpack:l2backpack:0.0.2')
-    runtimeOnly fg.deobf('dev.local.twilightforest:twilightforest:4.1.1028')
-
-    runtimeOnly fg.deobf('curse.maven:placebo-283644:3781199')
-    runtimeOnly fg.deobf('curse.maven:champions-307152:3783685')
-    runtimeOnly fg.deobf('curse.maven:apotheosis-313970:3781524')
-
+    runtimeOnly fg.deobf('curse.maven:rhino-416294:3884669')
+    runtimeOnly fg.deobf('curse.maven:architectury-api-419699:3855244')
     runtimeOnly fg.deobf("mezz.jei:jei-${jei_minecraft_version}:${jei_version}")
 
 }
